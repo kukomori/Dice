@@ -2,37 +2,36 @@ Die[] loveDice = new Die[20];
 
 void setup()
 {
-  size(1000,1000);
+  size(1000,800);
   textAlign(CENTER);
   noLoop();
 }
-
 void draw()
 {
   //your code here
   background(200);
   
   // hideous code i am so sorry mr. chan
-  loveDice[0] = new Die(240, 160);
-  loveDice[1] = new Die(320, 160);
-  loveDice[2] = new Die(640, 160);
-  loveDice[3] = new Die(720, 160);
-  loveDice[4] = new Die(160, 240);
-  loveDice[5] = new Die(400, 240);
-  loveDice[6] = new Die(560, 240);
-  loveDice[7] = new Die(800, 240);
-  loveDice[8] = new Die(160, 320);
-  loveDice[9] = new Die(480, 320);
-  loveDice[10] = new Die(800, 320);
-  loveDice[11] = new Die(160, 400);
-  loveDice[12] = new Die(800, 400);
-  loveDice[13] = new Die(240, 480);
-  loveDice[14] = new Die(720, 480);
-  loveDice[15] = new Die(320, 560);
-  loveDice[16] = new Die(640, 560);
-  loveDice[17] = new Die(400, 640);
-  loveDice[18] = new Die(560, 640);
-  loveDice[19] = new Die(480, 720);
+  loveDice[0] = new Die(240, 80);
+  loveDice[1] = new Die(320, 80);
+  loveDice[2] = new Die(640, 80);
+  loveDice[3] = new Die(720, 80);
+  loveDice[4] = new Die(160, 160);
+  loveDice[5] = new Die(400, 160);
+  loveDice[6] = new Die(560, 160);
+  loveDice[7] = new Die(800, 160);
+  loveDice[8] = new Die(160, 240);
+  loveDice[9] = new Die(480, 240);
+  loveDice[10] = new Die(800, 240);
+  loveDice[11] = new Die(160, 320);
+  loveDice[12] = new Die(800, 320);
+  loveDice[13] = new Die(240, 400);
+  loveDice[14] = new Die(720, 400);
+  loveDice[15] = new Die(320, 480);
+  loveDice[16] = new Die(640, 480);
+  loveDice[17] = new Die(400, 560);
+  loveDice[18] = new Die(560, 560);
+  loveDice[19] = new Die(480, 640);
   
   int sum = 0;
   
