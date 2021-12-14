@@ -41,7 +41,7 @@ void draw()
     loveDice[i].show();
   }
   
-  text("Total Love Sum: " + sum, 510, 400);
+  text("Total Love Sum: " + sum, 510, 401);
 
 }
 
